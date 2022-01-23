@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- <form action="" method="POST">
+        {% csrf_token %}
+            {{ data.as_p }}
+        <input type="submit" class="btn btn-success" style="width: 100px;" value="submit" /> -->
+    <!-- </form> -->
+
+    <form method="POST" action="">
+        {% csrf_token %}
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your Name"required>
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="Address">Address</label>
+                <input type="text" class="form-control" id="address" name="address" placeholder="Enter Your Address" required>
+            </div>
+            <div class="form-group">
+                <label for="City">City</label>
+                <input type="text" class="form-control" id="city" name="city" placeholder="Enter Your city Name" required>
+            </div>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="Enter Your Username" required>
+            </div>
+            <div class="form-group">
+                <label for="district">district</label>
+                <input type="text" class="form-control" id="district" name="district" placeholder="Enter Your district" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="state">state</label>
+                <input type="text" class="form-control" id="state" name="state" placeholder="Enter Your Phone Number" required>
+            </div> 
+             
+            <div class="form-group">
+                <label for="postal_code">postal_code</label>
+                <input type="phone" class="form-control" id="postal_code" name="postal_code" placeholder="Enter Your Postial postal_code" required>
+            </div> 
+            <div class="form-group">
+                <label for="Hightest qualification">Hightest qualification</label>
+                <input type="text" class="form-control" id="Hightest_qualification" name="Hightest_qualification" placeholder="Enter Your HightestQqualification" required>
+            </div> 
+            <div class="form-group">
+                <label for="phone">Experriance</label>
+                <input type="text" class="form-control" id="Professinal_Experriance" name="Professinal_Experriance" placeholder="Enter Your Professinal Experriance " required>
+            </div> 
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="phone" class="form-control" id="mobile_no" name="mobile_no" placeholder="Enter Your Phone Number" required>
+            </div> 
+            <div class="form-group">
+                <label for="desc">Tell me about what you want to contact me for...</label>
+                <textarea class="form-control" id="desc" rows="3" name="bio"required></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     
+    </body>
+</html>
